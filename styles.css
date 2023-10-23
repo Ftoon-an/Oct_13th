@@ -1,0 +1,123 @@
+/* Reset default margins and paddings */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: #ad2b2b;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #444;
+  display: flex;
+  justify-content: space-around; /* Menu options side by side */
+  align-items: center; /* Center menu items vertically */
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+}
+
+/* Style the sections */
+section {
+  padding: 20px;
+}
+
+h2 {
+  color: #ad2b2b;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: square;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 8px;
+}
+
+/* Style the iframe */
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the form */
+form {
+  margin-top: 10px;
+}
+
+/* Style the select element */
+select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Style the textarea element */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #ad2b2b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the image container */
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure images wrap to a new line on smaller screens */
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 30%;
+  border: 2px solid #ad2b2b;
+}
+
+/* Add hover effect to navigation links */
+nav a:hover {
+  color: #ad2b2b;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  /* Stack images one on top of the other in mobile mode */
+  .image-container img {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
